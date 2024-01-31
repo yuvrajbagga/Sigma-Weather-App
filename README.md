@@ -37,8 +37,8 @@ Find out the humidity percentage and wind speed to plan your activities accordin
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to create issues or pull requests.
 
 ## Screenshots
-![Screenshot (185)](https://github.com/yuvrajbagga/Sigma-Weather-App/assets/113333290/edea9f9c-06e8-49f9-a877-6256b46c63e4)
-![Screenshot (186)](https://github.com/yuvrajbagga/Sigma-Weather-App/assets/113333290/5f4ac626-87e7-4c61-b1c4-8d5f025551ad)
-![Screenshot (187)](https://github.com/yuvrajbagga/Sigma-Weather-App/assets/113333290/5fd72015-6eff-425b-a9e6-0e0cbea47363)
+![Screenshot (185)](https://github.com/yuvrajbagga/Sigma-Weather-App/assets/113333290/264139cb-a1af-4846-b3f4-6944e14ffb0b)
+![Screenshot (186)](https://github.com/yuvrajbagga/Sigma-Weather-App/assets/113333290/dd35d051-fb87-49ed-82f4-a0070cf37a6f)
+![Screenshot (187)](https://github.com/yuvrajbagga/Sigma-Weather-App/assets/113333290/bca75a00-e321-413c-800c-b280c40a812b)
 
 
