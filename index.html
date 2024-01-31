@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get real-time weather information for any city. Check temperature, atmospheric conditions, and more with Sigma Weather.">
+    <meta name="keywords"
+        content="weather app, weather forecast, temperature, atmospheric conditions, city weather, Sigma Weather">
+    <title>Sigma Weather</title>
+    <link rel=icon type="image/x-icon" href="favicon.png.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/524f4748ec.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div><a href="#" id="homebutton" class="home">Sigma Weather</a></div>
+            <div class="popo">
+                <ul class="top">
+                    <li><input type="text" name="typ" id="typ" class="typ" id="city" type="search" placeholder="  Enter your city"></li>
+                    <li><button class="searchbutton"  type="button" id="submit">Search</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="mc">
+        <h1 class="maincity" id="w">Search Your City</h1>
+        <main class="mains">
+            <div class="container">
+                <div class="box">
+                    <h2>Temperature</h2>
+                    <div class="card">
+                        <h3><span id="Temp2"></span> <span>&#8451;</span></h3>
+                        <ul class="cards">
+                            <li>Temperature is <b><span id="Temp"></b></span></li>
+                            <li>Min Temperature is <b><span id="Temp_min"></b></span></li>
+                            <li>Max Temperature is <b><span id="Temp_max"></b></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Atmostphere</h2>
+                    <div class="card">
+                        <h3 ><span id="Pressure2"></span> <span>/Pa</span></h3>
+                        <ul class="cards">
+                            <li>Weather is <b><span id="mosam"></b></span></li>
+                            <li>Pressure <b><span id="Pressure"></b></span></li>
+                            <li>Feels Like is <b><span id="Feels_like"></b></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Climate</h2>
+                    <div class="card">
+                        <h3><span id="wind_Speed2"></span> <span>km/hr</span></h3>
+                        <ul class="cards">
+                            <li>Sunrise Time is <b><span id="Sunrise"></b></span></li>
+                            <li>Sunset Time is <b><span id="Sunset"></b></span></li>
+                            <li>Wind Speed is <b><span id="wind_Speed"></b></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h3 class="maincity">Other Cities</h3>
+            <div class="othercity">
+                <table class="tables">
+                    <tbody>
+                        <tr>
+                            <th class="weather"></th>
+                            <th class="weather">Temp</th>
+                            <th class="weather">Feels_like</th>
+                            <th class="weather">Temp_min</th>
+                            <th class="weather">Temp_max</th>
+                            <th class="weather">Sunrise&nbsp;&nbsp;&nbsp;</th>
+                            <th class="weather">&nbsp;&nbsp;&nbsp;Sunset</th>
+                            <th class="weather">Weather</th>
+                            <th class="weather">Wind_Speed</th>
+                            <th class="weather">Pressure</th>
+                        </tr>
+                        <tr>
+                            <td scope="row" id="srs" class="weather">Sirsa</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" id="mum" class="weather">Mumbai</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" id="ludhi" class="weather">Ludhiana</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" id="manali" class="weather">Manali</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" id="vrinda" class="weather">VrindaVan</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" id="kail"class="weather">Kailash</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+</body>
+</html>
+</main>
+<footer class="footers">
+    <div class="links">
+        <div class="follow">Social Links</div>
+        <div class="social">
+            <ul class="media">
+                <li class="link"><a href="https://www.linkedin.com/in/yuvrajbagga/" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a></li>
+                <li class="link"><a href="https://github.com/yuvrajbagga" target="_blank"><i class="fa-brands fa-github icon"></i></a></li>
+                <li class="link"><a href="https://www.facebook.com/iYuvrajBagga/" target="_blank"><i class="fa-brands fa-facebook-f icon"></i></a></li>
+                <li class="link"><a href="https://www.instagram.com/iyuvrajbagga" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
+                <li class="link"><a href="https://twitter.com/iYuvrajBagga" target="_blank"><i class="fa-brands fa-x-twitter icon"></i></a></li>
+                <li class="link"><a href="https://in.pinterest.com/iyuvrajbagga/" target="_blank"><i class="fa-brands fa-pinterest icon"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="me">
+        <p class="my">© 2024 Yuvraj Bagga. All Rights Reserved.<br></p>
+        <P class="my">Made with 🤍</P>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+
+
+</html>
