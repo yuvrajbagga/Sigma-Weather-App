@@ -1,8 +1,8 @@
  body {
     background: url(bg.jpg)no-repeat center fixed; 
     background-size: cover;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
 }
 *{
     margin: 0px;
