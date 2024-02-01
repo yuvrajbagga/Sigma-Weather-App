@@ -4,6 +4,13 @@
     -webkit-backdrop-filter: blur(1px);
     backdrop-filter: blur(1px);
 }
+@media only screen and (max-width: 440px) {
+    body {
+        background: url(bg2.jpg)no-repeat center fixed;
+        background-size: cover; 
+        background-position: 9% 9%;
+    }
+}
 *{
     margin: 0px;
     padding: 0px;
