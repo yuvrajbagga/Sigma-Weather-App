@@ -1,8 +1,8 @@
  body {
     background: url(bg.jpg)no-repeat center fixed; 
     background-size: cover;
-    -webkit-backdrop-filter: blur(1px);
-    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 @media only screen and (max-width: 440px) {
     body {
